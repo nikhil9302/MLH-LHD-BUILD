@@ -2,6 +2,11 @@
     "name": "AutoLHD",
     "version": "1.0",
     "manifest_version": 2,
+    "icons" : {
+	"16" : "original.png",
+	"32" : "original.png",
+	"64" : "original.png"
+    },
     "permissions": [
         "tabs"
     ],
