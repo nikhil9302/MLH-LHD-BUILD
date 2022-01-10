@@ -1,2 +1,1 @@
-#
-Memory_efficient_stringreverse
+# Memory_efficient_stringreverse
