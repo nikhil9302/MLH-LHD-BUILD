@@ -22,14 +22,6 @@ void switchstate(){
  lcd.clear();
 }
 
-void freezeState()
-{
- lcd.clear();
- lcd.setCursor(0,0);
- lcd.write("TIMER FROZEN");
- lcd.clear();
-}
-  
 void setup() {
   lcd.begin(16, 2);
   pinMode(buttonpin, INPUT);
@@ -40,10 +32,7 @@ void loop() {
   
   unsigned long timexp = millis() - prevstamp;
   bool buttonstate = digitalRead(buttonpin);
-  
-  if(buttonstate = HIGH)
-    freezeState();
-  else{ 
+ 
   if(timexp < minutes25)
   {
     lcd.setCursor(0,0);
@@ -69,8 +58,6 @@ void loop() {
  	switchstate(); 
    
   if(timexp > minutes25 + minutes5)
-    prevstamp = millis();
-  } 
+    prevstamp = millis(); 
   
 }
- 
