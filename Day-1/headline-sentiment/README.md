@@ -1,7 +1,7 @@
 ## Inspiration
 Sentiment Analysis
 ## What it does
-Made a python script that analyzes headlines through i/o stream and predicts whether the article is "Positive" or "Negative" and assigns a score from 0 to 1 to show how Positive or Negative the article is .
+Made a python script that analyzes headlines through i/o stream and predicts whether the article is "Positive" or "Negative" and assigns a score from 0 to 1 to emphasize on how Positive or Negative the article is. To run the python script, first install flair using `$ pip install flair` and then `$ python .\headlyzer.py`
 ## How we built it
 Used Flair, which is a simple to use framework for state of the art NLP. 
 ## Challenges we ran into
