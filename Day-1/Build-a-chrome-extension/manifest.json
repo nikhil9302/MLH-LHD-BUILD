@@ -1,18 +1,20 @@
 {
     "name": "AutoLHD",
     "version": "1.0",
+    "manifest_version": 2,
     "permissions": [
         "tabs"
     ],
     "background": {
         "scripts": [
+            "jquery.js",
             "script.js"
         ]
     },
     "content_scripts": [{
         "matches": [
-            "http://organize.mlh.io/*"
+            "https://localhackday.mlh.io/schedule"
         ],
-        "js": ["check-in.js"]
+        "js": ["jquery.js", "scheduler.js"]
     }]
 }
