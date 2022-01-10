@@ -10,5 +10,5 @@ The device was simulated on TinkerCAD.
 ## What we learned
 Figuring out timers and interrupts on Arduino, delay() and millis()  functions.
 ## What's next for Timer Hack
-Interfacing to detect whether you're in your seat.
+Interfacing an ultra-sonic sensor to detect whether you're in your seat.
 Adding an override "timer-freeze" button.
