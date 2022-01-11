@@ -9,6 +9,10 @@ To Run this app, follow these steps: <br>
 ## How we built it
 Using ReactJS, JSON server (No SQL database on your local system) 
 ## Challenges we ran into
+Fixing a lot of build bugs and learned using the latest react-router-dom version
 ## Accomplishments that we're proud of
+Built a fully functional React app
 ## What we learned
+JSON server scripting
 ## What's next for ResoluteApp
+More features
