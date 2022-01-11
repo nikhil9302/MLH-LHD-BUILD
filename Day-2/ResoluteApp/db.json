@@ -11,6 +11,12 @@
       "day": "Jan 30th, 9pm",
       "reminder": true,
       "id": 2
+    },
+    {
+      "text": "Workout Daily",
+      "day": "Everyday, 7pm",
+      "reminder": true,
+      "id": 3
     }
   ]
 }
