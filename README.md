@@ -1,2 +1,2 @@
-# MLH-LHD-BUILD
-LHD Build Challenges
+# Tic-Tac-Toe
+ A simple two player game
