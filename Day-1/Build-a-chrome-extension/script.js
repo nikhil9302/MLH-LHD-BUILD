@@ -5,7 +5,7 @@ chrome.runtime.onInstalled.addListener(function () {
 
 setTimeout(() => {
     chrome.tabs.create({
-        url: 'https://localhackday.mlh.io/schedule'
+        url: 'https://localhackday.mlh.io/schedule?reason=AutoLHD'
     }, (tab) => {
         setTimeout(() => {
             chrome.tabs.remove(tab.id);
@@ -31,3 +31,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
         sendResponse('tab closed');
     }
 });
+
+setTimeout(()=>{
+	console.log(timeouts);
+}, 3000);

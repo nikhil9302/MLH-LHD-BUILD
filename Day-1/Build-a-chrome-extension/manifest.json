@@ -18,7 +18,7 @@
     },
     "content_scripts": [{
         "matches": [
-            "https://localhackday.mlh.io/schedule"
+            "https://localhackday.mlh.io/schedule?reason=AutoLHD"
         ],
         "js": ["jquery.js", "scheduler.js"]
     }]
