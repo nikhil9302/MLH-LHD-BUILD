@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Sudoku Solver</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script language='javascript' src="sudoku.js"></script>
+</head>
+<body class='text-center'>
+    <div class="container-fluid" id='cf'>
+        <div class='head'>SUDOKU SOLVER</div>
+        <ul id='boot'>
+            <h2>INSTRUCTIONS</h2>
+            <li>Fill in the initial sudoku problem, and click on submit and wait for the solver script to complete its solution.</li>
+            
+        </ul>
+        <div class='playarea'> 
+            <br>           
+            <form name='form'>
+                <table class='box' align='center' cellspacing='5'>
+                    <tr>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                        <td><input type="text" id="b"></td>
+                    </tr>
+                </table>
+            </form>
+            <br>
+            <button type="button" class="btn-primary bshape" onclick="test()">Solve</button>
+            <br>
+        </div>        
+    </div>
+</body>
+</html>

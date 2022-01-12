@@ -1,0 +1,110 @@
+.head{ 
+    color: rgb(10, 49, 61);
+    font-family:cursive;
+    text-align: center; 
+    background-image: url("photos/header-background.jpg");   
+    background-size: cover;
+    font-size: 55px;    
+    padding-top: 20px;
+    padding-bottom: 20px;         
+} 
+body{
+    margin: 0%;
+    display: block;
+}
+#cf{
+    padding:0px 0px;
+}
+p{
+    margin: 0%;
+}
+h2{
+    margin: 0%;
+}
+#boot{
+    margin-bottom: 0px; 
+    background-color: lemonchiffon;
+}
+ul{
+    margin: 0%;    
+    text-align: center;
+    line-height: 40px;
+    background-image: url("photos/instr-background.jpg");
+    background-size: cover;   
+    color:brown;
+    font-size: 25px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    list-style-image: url("photos/icon.jpg");    
+}
+ul li{
+    list-style-position: inside;
+    margin-left: 50%;
+    background-color: beige;
+    background-size: 50px;
+    width:max-content;
+    margin: 10px;    
+}
+#b{ 
+    width: 75px; 
+    height: 75px; 
+    margin: auto;
+    color: rgb(29, 100, 47); 
+    border: 2px solid rgb(28, 47, 105); 
+    border-radius: 5px; 
+    font-size: 45px; 
+    text-align: center; 
+}
+.high{
+    color:crimson;
+    font-weight: bold;
+    font-size:x-large;
+} 
+.playarea{     
+    background-image: url("photos/sudokubg.jpg");       
+    background-size: cover;
+    opacity: 1;
+}
+.box{    
+    background-color: orange;
+    width: 300px;
+    border-bottom-style:outset;
+    border-top-style :inset;
+    border-left-style: groove;
+    border-right-style:ridge;
+    border-color: orangered;
+    border-width: 10px;
+    padding: 20px;  
+}
+
+#new,#res,#end{
+    font-size:30px;
+}
+#print {    
+    text-align: center;
+    margin: 10px 40% 10px 40%; 
+    background-color:orange;      
+    background-size:auto;
+    font-family: 'Courier New', Courier, monospace;
+    color: maroon;
+    font-weight: bold;
+    font-size: 35px; 
+}
+
+.result{    
+    box-sizing: border-box;
+    border-style:groove;
+    border-width: 15px;
+    border-color:orange;
+    background-color: lightyellow;
+    width:50%;
+    margin:auto;
+    padding-bottom: 20px;
+    text-align: center ;
+    font-size: 25px;
+    text-decoration: none;
+    color:rgb(56, 42, 143);
+}
+.bshape{
+    font-size: 30px;
+}
