@@ -10,8 +10,8 @@ for com in data:
 
 classifier = TextClassifier.load('en-sentiment')
 analysis = []
-for com in comments:
-    sen = Sentence(com)
+for i in range(0,10):
+    sen = Sentence(comments[i])
     classifier.predict(sen)
     analysis.append(sen.labels[0].value)
 print("Number of positive comments:", analysis.count('POSITIVE'))

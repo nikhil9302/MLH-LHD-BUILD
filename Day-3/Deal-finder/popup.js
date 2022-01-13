@@ -1,5 +1,7 @@
+document.getElementById("button").addEventListener("click", openInNewTab);
+
 function openInNewTab() {
-    title = document.getElementById('productTitle').innerText;
+    title = document.getElementsByClassName('a-text-normal')[0].innerText;
     //replace spaces with + in title string
     if (title) {
         //replace spaces with + in title string

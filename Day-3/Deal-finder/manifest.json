@@ -12,7 +12,7 @@
     ],
     "content_scripts": [{
         "matches": [
-            "https://www.amazon.in/*"
+            "https://www.amazon.in/deal/321f2b1b?showVariations=true&ref=dlx_deals_gd_dcl_img_3_321f2b1b_dt_sl15_47"
         ],
         "js": [
             "popup.js"
